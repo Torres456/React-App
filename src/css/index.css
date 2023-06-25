@@ -1,0 +1,18 @@
+
+.contenedor{
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+}
+
+.Capcake{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+.Capcake img{
+    width: 300px;
+}

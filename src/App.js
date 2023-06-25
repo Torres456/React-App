@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Cupcake from "./Cupcake";
+import foto from "./images/Pasteles.jpg";
+import "./css/index.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="contenedor">
+      <Cupcake color="rosa" sabor="vainilla"  foto={foto}/>
+      <Cupcake color="azul" sabor="chocolate"  foto={foto} />
+      <Cupcake color="azul" sabor="chocolate"  foto={foto} />
     </div>
   );
 }
